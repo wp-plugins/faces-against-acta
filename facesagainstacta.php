@@ -37,8 +37,8 @@ function widget_faa_init()
         echo "</table></center>";
 	}
 	
-	register_sidebar_widget('Category Cloud', 'widget_faa');
-	register_widget_control('Category Cloud', 'widget_faa');
+	register_sidebar_widget('Faces against ACTA', 'widget_faa');
+	register_widget_control('Faces against ACTA', 'widget_faa');
 }
 
 add_action('init', 'widget_faa_init');

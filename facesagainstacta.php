@@ -22,7 +22,7 @@ function widget_faa_init()
 	{
         echo "<center>";
         echo "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"170\"><tr><td colspan=\"2\">";
-        echo "<a href=\"http://faces-against-acta.net/\"><img src=\"/wp-content/plugins/facesagainstacta/header.png\" border=\"0\" width=\"170\" height=\"110\"></a>";
+        echo "<a href=\"http://faces-against-acta.net/\"><img src=\"/wp-content/plugins/faces-against-acta/header.png\" border=\"0\" width=\"170\" height=\"110\"></a>";
         echo "</td></tr><tr><td>";
         echo "<a href=\"http://faces-against-acta.net/\"><img src=\"http://img.faces-against-acta.net/random_small/?1\" border=\"0\" width=\"85\" height=\"110\"></a>";
         echo "</td><td>";        
@@ -37,8 +37,8 @@ function widget_faa_init()
         echo "</table></center>";
 	}
 	
-	register_sidebar_widget('Category Cloud', 'widget_faa');
-	register_widget_control('Category Cloud', 'widget_faa');
+	register_sidebar_widget('Faces against ACTA', 'widget_faa');
+	register_widget_control('Faces against ACTA', 'widget_faa');
 }
 
 add_action('init', 'widget_faa_init');

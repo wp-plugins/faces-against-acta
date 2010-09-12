@@ -2,7 +2,7 @@
 Contributors: pitapoison
 Donate link: tps://flattr.com/thing/60426/Faces-against-ACTA-Wordpress-Plugin
 Tags: widget, acta, piraten, pirateparty, piratenpartei
-Stable tag: 1.0
+Stable tag: 1.0.1
 Tested up to: 3.0.1
 Requires at least: 2.0
 
@@ -18,3 +18,23 @@ The Anti-Counterfeiting Trade Agreement is hanging above us like the Sword of Da
 Join and show YOUR face against ACTA. Our protest is not single-faced but has many faces. One voice can be ignored, a few voices must be heard, but many voices can't be ignored
 
 With this plugin you can help us to promote this action and stopping ACTA
+
+== Installation ==
+
+1. Download the zip file & unzip it
+2. Move the faces-against-acta folder to the `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
+
+or use the search and search for "acta" with the tag search (de: schlagwort suche)
+
+== Screenshots ==
+1. The Widget in Action
+
+== Changelog ==
+
+= 1.0.1 =
+* Adding some CSS
+* Add a link to the Plugin
+
+= 1.0 =
+* First upload 

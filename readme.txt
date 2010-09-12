@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: pitapoison
-Donate link: tps://flattr.com/thing/60426/Faces-against-ACTA-Wordpress-Plugin
+Donate link: https://flattr.com/thing/60426/Faces-against-ACTA-Wordpress-Plugin
 Tags: widget, acta, piraten, pirateparty, piratenpartei
 Stable tag: 1.0.1
 Tested up to: 3.0.1

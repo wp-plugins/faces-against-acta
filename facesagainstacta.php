@@ -4,7 +4,7 @@ Plugin Name: Faces against ACTA
 Plugin URI: http://faces-against-acta.net/
 Description: Adds a sidebar widget to display faces against ACTA.
 Author: Peter Martischka
-Version: 1.0
+Version: 1.0.1
 Author URI: http://pitapoison.de/
 */
 

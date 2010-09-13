@@ -1,8 +1,8 @@
 === Plugin Name ===
 Contributors: pitapoison
-Donate link: tps://flattr.com/thing/60426/Faces-against-ACTA-Wordpress-Plugin
+Donate link: https://flattr.com/thing/60426/Faces-against-ACTA-Wordpress-Plugin
 Tags: widget, acta, piraten, pirateparty, piratenpartei
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Tested up to: 3.0.1
 Requires at least: 2.0
 
@@ -31,6 +31,9 @@ or use the search and search for "acta" with the tag search (de: schlagwort such
 1. The Widget in Action
 
 == Changelog ==
+
+= 1.0.2 =
+* correct the header image link
 
 = 1.0.1 =
 * Adding some CSS

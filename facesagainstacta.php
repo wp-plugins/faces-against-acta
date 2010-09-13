@@ -4,7 +4,7 @@ Plugin Name: Faces against ACTA
 Plugin URI: http://faces-against-acta.net/
 Description: Adds a sidebar widget to display faces against ACTA.
 Author: Peter Martischka
-Version: 1.0
+Version: 1.0.2
 Author URI: http://pitapoison.de/
 */
 
@@ -20,16 +20,15 @@ function widget_faa_init()
 
 	function widget_faa($args)
 	{
-	
           echo "<style type=\"text/css\">";
           echo "#faa-table {border-collapse:collapse !important; border-spacing:0px !important; border-width:0px !important;;}";
           echo "#faa-table td, #faa-table tr, #faa-table a, #faa-table img {padding:0px !important; margin:0px !important; border-width:0px !important;}";      
           echo ".faa-link a {font-size:10px !important;font-family:Verdana,sans-serif !important;color:red !important;text-decoration:underline !important}";        
           echo "</style>";
-        
+                  
           echo "<center>";
           echo "<table id=\"faa-table\" style=\"border-width:0px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"170\"><tr><td colspan=\"2\">";
-          echo "<a href=\"http://faces-against-acta.net/\"><img src=\"/wp-content/plugins/faces-against-acta/header.png\" border=\"0\" width=\"170\" height=\"110\"></a>";
+          echo "<a href=\"http://faces-against-acta.net/\"><img src=\"".get_bloginfo('url')."/wp-content/plugins/faces-against-acta/header.png\" border=\"0\" width=\"170\" height=\"110\"></a>";
           echo "</td></tr><tr><td>";
           echo "<a href=\"http://faces-against-acta.net/\"><img src=\"http://img.faces-against-acta.net/random_small/?1\" border=\"0\" width=\"85\" height=\"110\"></a>";
           echo "</td><td>";        
